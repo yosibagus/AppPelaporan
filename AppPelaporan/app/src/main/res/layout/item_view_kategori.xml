@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="210dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="13dp"
+    android:padding="5dp"
+    cardview:cardCornerRadius="4dp"
+    cardview:cardElevation="3dp"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgKategori"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/namaKategori"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kategori Title"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#2d2d2d"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

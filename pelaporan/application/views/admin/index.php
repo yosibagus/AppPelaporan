@@ -1,0 +1,1 @@
+ <img src="<?= base_url(); ?>assets_login\static\img\home-banner-7.svg" title="" alt="" style="height: 80%; width: 100%;">
